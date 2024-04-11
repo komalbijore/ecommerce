@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: #151236;
+    display: grid;
+    grid-template-columns: 20% 40% 20%;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+nav>div>img{
+    width: 30%;
+    margin-left:1rem ;
+}
+nav>div>ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: auto;
+}
+nav>div>ul>li>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+  
+}
+nav>div>ul>li>a:hover{
+    background-color: lightskyblue;
+    color: black;
+}
+nav>#right1{
+    display: flex;
+    justify-content:end;
+}
+nav>#right1>span{
+    
+    padding: 0.9rem 0.6rem;
+    margin-right: 9px;
+    border: 2px solid  rgb(123, 37, 37);
+    color: rgb(158, 184, 81);
+    border-radius: 33px;
+}
+nav>#right1>a{
+ margin-right: 1rem;
+}
+nav>#right1>a>button{
+    margin-top: 6px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(169, 173, 162);
+    color: rgb(16, 9, 16);
+    border: none;
+    font-size: 1rem;
+   
+   }
+nav>#right1>a>button:active{
+    background-color: white;
+}
+
+.design>div{
+    background-color: grey;
+    border-radius: 5px;
+
+}
+.design>div>img{
+    width: 100%;
+    height: 300px;
+}
+.design>div>h2,h3,h4{
+    color: white;
+    padding-left: 1rem;
+    margin: 0.5rem
+}
+.design>div>button{
+    width: 100%;
+    background-color: rgb(41, 41, 138);
+    color: white;
+    border: none;
+    height: 3rem;
+    border-radius: 5px;
+}
+.design{
+    display: grid;
+    grid-template-columns: repeat(4,20%);  
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: lightsteelblue;
+}
+.design >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#popup{
+    width: 25%;
+    background-color: aquamarine;
+    position: fixed;
+    right: -100%;
+    top: 0%;
+    height: 100vh;
+    padding: 1rem;
+    transition: 1s;
+    overflow-y: scroll; 
+}
+#static>h3{
+    text-align: right;
+    margin: 0;
+}
+
+#static>h2{
+    text-align: center;
+}
+
+.cart-design{
+    display: grid;
+    grid-template-columns: 20% 26% 17% 17%; 
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+    border: 2px solid rgb(222, 218, 218);
+    margin-bottom: 3px;
+
+}
+.cart-design>div>img{
+    width: 100%;
+}
+.cart-design>div>input{
+    width: 50%;
+}
+.cart-design>div>h2,h3,h4{
+    color: black;
+}

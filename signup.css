@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: auto;
+}
+.fa-user{
+    position: absolute; 
+    top: 10%;
+    left: 6.5%;  
+}
+#fname-cont{
+    position: relative;
+}
+
+input{
+    height: 1.5rem;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 0.9rem;
+}
+label{
+    color: rgb(31, 30, 30);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+form{
+    width: 20%;
+    background-color: rgb(188, 192, 193);
+    padding: 1rem;
+    border:2px solid rgb(27, 20, 20);
+    border-radius: 5px;
+    margin: auto;
+}
+form>#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form>#btn>button{
+    background-color:rgba(30, 24, 87, 0.855);
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+}
+
+span{
+    color: red;
+}
